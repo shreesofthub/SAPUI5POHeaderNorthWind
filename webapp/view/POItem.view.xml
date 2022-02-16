@@ -1,0 +1,27 @@
+<mvc:View controllerName="sapYard.sapyard03.controller.POItem" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:form="sap.ui.layout.form">
+    <Page title="{i18n>itemTitle}" showNavButton="true" navButtonPress="onBack">
+        <form:SimpleForm>
+                <Label text="OrderID"></Label>
+                <Text text="{OrderID}"></Text>
+                                <Label text="CustomerID"></Label>
+                <Text text="{CustomerID}"></Text>
+                                <Label text="EmployeeID"></Label>
+                <Text text="{EmployeeID}"></Text>
+                                <Label text="OrderDate"></Label>
+                <Text text="{OrderDate}"></Text>
+                                <Label text="RequiredDate"></Label>
+                <Text text="{RequiredDate}"></Text>
+                                <Label text="ShippedDate"></Label>
+                <Text text="{ShippedDate}"></Text>
+                                <Label text="ShipVia"></Label>
+                <Text text="{ShipVia}"></Text>
+                                <Label text="Freight"></Label>
+                <Text text="{Freight}"></Text>
+                                <Label text="ShipName"></Label>
+                <Text text="{ShipName}"></Text>
+                                <Label text="ShipAddress"></Label>
+                <Text text="{ShipAddress}"></Text>
+
+        </form:SimpleForm>
+    </Page>
+</mvc:View>

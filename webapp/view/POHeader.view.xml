@@ -1,0 +1,13 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" controllerName="sapYard.sapyard03.controller.POHeader" xmlns="sap.m" >
+    <App>
+        <pages>
+            <Page id="idPage" showNavButton="true" navButtonPress="onBack">
+                <List id="idList0" backgroundDesign="Solid" items="{/Orders}" updateFinished="onListUpdated">
+                    <items>
+                        <ObjectListItem intro="{CustomerID}" type = "Active" number="{OrderDate}" title="{OrderID}" press="toPODetail"></ObjectListItem>
+                    </items>
+                </List>
+            </Page>
+        </pages>
+    </App>
+</mvc:View>
